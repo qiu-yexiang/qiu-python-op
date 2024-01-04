@@ -44,7 +44,6 @@ for x in range(len(data_names)):
     key=data_names[x]
     y = data[x]
     for z in y :
-        z=z*len(y)
         dics = {'性别': 0, '年龄': 0, '收入': 0, '教育': 0, '国内/外': 0, '是否每天登陆': 0}
         dics[key]=z
         dic_ = {}
